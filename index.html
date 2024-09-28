@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/CSS/css-reset.css" />
+    <link rel="stylesheet" href="styles/CSS/style.css" />
+
+    <script src="https://kit.fontawesome.com/4113a18337.js" crossorigin="anonymous"></script>
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-container">
+        <img src="images/logo.svg" alt="logo" class="navbar__logo" />
+        <button class="header__try-button">Try it free</button>
+      </div>
+
+      <div class="header__content">
+        <h1 class="header__title">Build The Community Your Fans Will Love</h1>
+        <p class="header__desc">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="get-start-button">Get Started For Free</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero-section">
+        <img src="images/screen-mockups.svg" alt="mockup" class="hero-section__hero" />
+        <div class="hero-section__number-flex">
+          <div class="hero-section__number-container">
+            <img src="images/icon-communities.svg" alt="communities" class="hero-section__icon" />
+            <p class="hero-section__number">1.4k+</p>
+            <p class="hero-section__number-title">Communities Formed</p>
+          </div>
+          <div class="hero-section__number-container">
+            <img src="images/icon-messages.svg" alt="messages" class="hero-section__icon" />
+            <p class="hero-section__number">2.7m+</p>
+            <p class="hero-section__number-title">Messages Sent</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section main-section_background_pale-blue">
+        <div class="main-section__bg-top">
+          <img src="images/bg-section-top-mobile-1.svg" alt="bg-top" class="main-section__bg-top-mobile-image" />
+          <img src="images/bg-section-top-desktop-1.svg" alt="bg-top" class="main-section__bg-top-desktop-image" />
+          <div class="main-section__square"></div>
+        </div>
+        <div class="main-section__content main-section__content_bg_pale-blue">
+          <div class="main-section__text-section">
+            <h2 class="main-section__title">Grow Together</h2>
+            <p class="main-section__desc">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+          </div>
+          <img src="images/illustration-grow-together.svg" alt="grow-together" class="main-section__image" />
+        </div>
+        <div class="main-section__bg-bottom">
+          <div class="main-section__square"></div>
+          <img src="images/bg-section-bottom-mobile-1.svg" alt="bg-bottom" class="main-section__bg-bottom-mobile-image" />
+          <img src="images/bg-section-bottom-desktop-1.svg" alt="bg-bottom" class="main-section__bg-bottom-desktop-image" />
+        </div>
+      </section>
+
+      <section class="main-section">
+        <div class="main-section__content main-section__content_row_reverse">
+          <div class="main-section__text-section main-section__text-section_width_smaller">
+            <h2 class="main-section__title">Flowing Conversations</h2>
+            <p class="main-section__desc">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+          </div>
+          <img src="images/illustration-flowing-conversation.svg" alt="flowing-conversation" class="main-section__image" />
+        </div>
+      </section>
+
+      <section class="main-section main-section_background_pale-blue">
+        <div class="main-section__bg-top">
+          <img src="images/bg-section-top-mobile-2.svg" alt="bg-top" class="main-section__bg-top-mobile-image" />
+          <img src="images/bg-section-top-desktop-2.svg" alt="bg-top" class="main-section__bg-top-desktop-image" />
+          <div class="main-section__square"></div>
+        </div>
+        <div class="main-section__content main-section__content_bg_pale-blue">
+          <div class="main-section__text-section">
+            <h2 class="main-section__title">Your Users</h2>
+            <p class="main-section__desc">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+          </div>
+          <img src="images/illustration-your-users.svg" alt="users" class="main-section__image" />
+        </div>
+        <div class="main-section__bg-bottom">
+          <div class="main-section__square"></div>
+          <img src="images/bg-section-bottom-mobile-2.svg" alt="bg-bottom" class="main-section__bg-bottom-mobile-image" />
+          <img src="images/bg-section-bottom-desktop-2.svg" alt="bg-bottom" class="main-section__bg-bottom-desktop-image" />
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <h2 class="cta-section__title">Ready To Build Your Community?</h2>
+        <button class="get-start-button">Get Started For Free</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__background-container">
+        <img src="images/bg-footer-top-mobile.svg" alt="bg" class="footer__background-mobile" />
+        <img src="images/bg-footer-top-desktop.svg" alt="bg" class="footer__background-desktop" />
+        <div class="footer__square"></div>
+      </div>
+
+      <div class="footer__content">
+        <div class="footer__left-content">
+          <img src="images/logo-white.svg" alt="logo" class="footer__logo" />
+          <p class="footer__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+          <div class="footer__contact-container">
+            <div class="footer__contact">
+              <img src="images/icon-phone.svg" alt="phone" class="footer__contact-icon" />
+              <p class="footer__contact-text">Phone: +1-543-123-4567</p>
+            </div>
+            <div class="footer__contact">
+              <img src="images/icon-email.svg" alt="email" class="footer__contact-icon" />
+              <p class="footer__contact-text">example@huddle.com</p>
+            </div>
+          </div>
+
+          <div class="footer__socmed-container">
+            <a href="#" class="footer__socmed-link"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="footer__socmed-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer__socmed-link"><i class="fa-brands fa-square-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__right-content">
+          <h3 class="footer__title-newsletter">Newsletter</h3>
+          <p class="footer__newsletter-desc">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+          <div class="footer__input-container">
+            <div class="footer__validation-container">
+              <input type="text" class="footer__input-field" onkeyup="emailValidation()" />
+              <p class="footer__validation">Check your email please</p>
+            </div>
+
+            <button class="footer__button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution-container">
+        <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/gilangr1440/">Gilang Ramadhan</a>.</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
