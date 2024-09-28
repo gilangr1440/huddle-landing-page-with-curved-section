@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-section-bR1MhI33kr)
+- Live Site URL: [live site URL here](https://gilangr1440.github.io/huddle-landing-page-with-curved-section/)
 
 ## My process
 
